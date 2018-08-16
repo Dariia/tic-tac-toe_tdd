@@ -4,10 +4,6 @@ import { connect } from "react-redux";
 import { gameState, gameOnOff, setEmptyBoardData, setBoardData, updatePlayerArr, updateBotArr, setBoardBlock } from "../actions/app";
 
 class Dashboard extends React.Component {
-    constructor() {
-        super();
-    }
-
     getCleanedArray( data ) {
         let arr = [];
 
